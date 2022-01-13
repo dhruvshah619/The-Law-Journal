@@ -1,0 +1,53 @@
+.displayProfileDetails{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+#nameOfUser{
+    font-size: 2.5rem;
+}
+#bioOfUser{
+    font-size: 1.2rem;
+}
+#followBtn{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: cadetblue;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 1200px) { 
+    #nameOfUser{
+        font-size: 2rem;
+    }
+    #bioOfUser{
+        font-size: 1rem;
+    }
+    .hinter,.numberOfFollowers{
+        font-size: 1.2rem;
+    }
+    .numberOfFollowers{
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 665px) { 
+    .counter{
+        margin-top: 3%;
+    } 
+    .counter h4{
+        display: inline-block;
+    }
+    .counter h6{
+        display: inline-block;
+        margin-left: 3%;
+    }
+}
+@media only screen and (max-width: 576px) { 
+   
+}
+@media only screen and (max-width: 450px) { 
+   
+}

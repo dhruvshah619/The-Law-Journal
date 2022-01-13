@@ -1,0 +1,84 @@
+.blogPostHolder{
+    padding: 1%;
+    margin-top: 5%;
+    box-shadow: 2px 2px 2px 2px;    
+}
+#readEntireBlog{    
+    float: right;
+    background-color:  rgb(95, 69, 33);
+    color: ghostwhite;
+    font-weight: 500;
+    border-radius: 5%;
+}
+.card-header{
+    background-color:transparent;
+    font-weight: 500;  
+}
+.card-header h3,.card-header h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.card-footer p{
+    font-family:cursive;
+    font-weight: 500;
+    
+}
+.card-footer{
+    background-color:transparent;
+    border-radius: 10%;
+    
+}
+
+#editBlog{
+    background-color:  rgb(95, 69, 33);
+    color: ghostwhite;
+    font-weight: 500;
+    border-radius: 5%;
+}
+#editBlog:hover{
+    background-color:  #35585a;
+    border-left: 25px solid gainsboro;
+    color: ghostwhite;
+}
+#readEntireBlog:hover{
+    background-color:  #35585a;
+    border-right: 25px solid gainsboro;
+    color: ghostwhite;
+}
+.card-body p{ 
+    overflow-y:hidden;
+    max-height: 25vh;
+}
+.card{
+    padding: 3%;
+    border-radius: 10%;
+    border-left: 25px ridge rgb(136, 113, 81);
+}
+.card button{
+    padding: 2%;
+    margin-left: 1%;
+}
+.card button:hover{
+    background-color: rgb(220, 220, 220);  
+}
+
+@media only screen and (max-width: 450px) { 
+    .blogPostHolder{
+        margin-bottom: 5%;
+        border: none;
+    }
+    .card-header h3{
+        font-size: 1.3rem;
+    }
+    .card-header h5{
+        font-size: 1.1rem;
+        margin: 0px;
+    }
+    .card-body p{
+        font-size: 0.9rem;
+        margin: 0px;
+    }
+    .card-footer p{
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,98 @@
+.postsContainer{
+    padding-left: 5%;
+    padding-right: 5%;  
+}
+#search{
+    margin-left: 6%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    background-color: transparent;
+}
+#addButton{
+    bottom: 10%;
+    border-radius: 50%;
+    padding: 0.5%;
+}
+#addButton:hover{
+    background-color:  gainsboro;
+}
+.allBlogs{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    min-height: 80vh;
+    max-width: 80%;
+    display: inline-block;
+}
+#addButton{
+    position: fixed;
+    bottom:40px;
+	right:40px;
+}
+.filtersBtn{
+    background-color: transparent;
+    margin: 1.5%;
+    padding: 3%;
+    border-radius: 10%;
+}
+.filtersBtn:hover{  
+    background-color: rgb(230, 230, 230);
+}
+.categories{
+    margin-top: 3%;
+}
+#filterCategory{
+    font-size: 1.2rem;
+    padding: 1%;
+    margin-left: 6%;
+    margin-top: 1%;
+}
+
+#sorry{
+    padding-top: 7%;
+    
+}
+#sorryMsg{
+    margin-top: 2%;
+    margin-left: 15%;
+    color: rgb(94, 79, 56);
+}
+
+
+@media only screen and (max-width: 1320px) { 
+    
+}
+
+
+@media only screen and (max-width: 1200px) { 
+   
+}
+
+@media only screen and (max-width: 1085px) { 
+    #filterCategory{
+       font-size: 1rem;
+   }
+}
+
+@media only screen and (max-width: 920px) { 
+    
+}
+
+@media only screen and (max-width: 880px) { 
+}
+
+@media only screen and (max-width: 550px) { 
+    .allBlogs{
+        min-height: 90vh;
+        max-width: 90%;
+    }
+    #addButton{
+        bottom:20px;
+        right:20px;
+    }
+    #filterCategory{
+        margin-top: 2%;
+        margin-left: 7%;
+    }
+}

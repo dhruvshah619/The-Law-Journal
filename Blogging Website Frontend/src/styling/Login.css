@@ -1,0 +1,138 @@
+.login{
+    height: 100vh;
+    background-image: url('../images/background2.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: ghostwhite;
+}
+.loginBox{
+   border-bottom-left-radius: 20%;
+   border-bottom-right-radius: 20%;
+   border-top-left-radius: 20%;
+   border-top-right-radius: 20%;
+   border-left: 25px solid #35585a;
+   border-bottom: 25px solid #35585a;
+
+   margin-left: 5%;
+   margin-right: 60%;
+   padding: 2%;
+   margin-top: 5%;
+   margin-bottom: 20%;
+
+}
+.websiteName{
+    padding-top: 2%;
+    margin-left: 2%;
+    margin-right: 65%;
+    font-family: fantasy;
+    font-size: 3.5rem;
+    letter-spacing: 0.4rem;
+    font-weight: bold;
+    border-bottom: 10px solid rgb(136, 113, 81);
+    color: #35585a;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+#btnLogin,#signupOpt{
+    margin:2%;
+    padding: 1%;
+}
+#btnLogin{
+    background-color: rgb(136, 113, 81);
+    color:gainsboro;
+    font-family: cursive;
+}
+#btnLogin:hover{
+    background-color: rgb(95, 69, 33);
+    color:white;
+}
+#btnLogin{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding:2.5%;
+    border-radius: 5%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#signupOpt{
+    border: none;
+    background-color: transparent;  
+    margin-left: 50%;
+    font-family: cursive;
+}
+#signupOpt:hover{
+   border-bottom:2px solid #274545;
+}
+#username,#password{
+    margin:5%;
+    padding: 2%;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+.welcomeMessage{
+    margin-left: 15%;
+    margin-top:8%;
+    font-family: cursive;
+    margin-bottom: 5%;
+    font-size: 2.5rem;
+    color: #2a4647;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1200px) { 
+    .websiteName{
+        margin-right: 50%;
+    }
+    .login{
+        background: none;
+        border: none;
+    }
+    .loginBox{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media only screen and (max-width: 992px) { 
+    .loginBox{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+    .welcomeMessage{
+        margin-left: 5%
+    }
+    .loginBox{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media only screen and (max-width: 560px) { 
+    .welcomeMessage{
+        margin-left: 15%;
+        font-size: 2rem;
+    }
+    .loginBox{
+        margin-left: 5%;
+        margin-right: 5%;
+        border: none;
+    }
+    .websiteName{
+        margin-left: 5%;
+        font-size: 3rem;
+    }
+    #username,#password{
+        margin:3%;
+        font-size: 1rem;
+    }
+}
+

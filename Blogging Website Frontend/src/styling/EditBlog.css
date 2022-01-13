@@ -1,0 +1,12 @@
+#deletePost,#editPost{
+    border: none;
+    padding: 0.5%;
+    float: right;
+    background-color: transparent;
+    margin-right:1%;
+}
+#deletePost:hover,#editPost:hover{
+    background-color: rgb(238, 238, 238);
+}
+
+

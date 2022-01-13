@@ -1,0 +1,120 @@
+.blogViewer{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    background-color: white;
+}
+#postComment{
+    background-color: transparent;
+    border: none;
+}
+#comment{
+    min-width: 95%;
+}
+.blogDetails{
+    box-shadow: 2px 2px 2px 2px;
+    padding: 5%;
+    margin-bottom: 3%;
+    border-radius: 10%;
+    border-left: 50px solid #35585a;
+}
+.subDetails h5,.subDetails h6{
+    margin-left: 60%;
+}
+.subDetails{
+    margin-bottom: 3%;
+}
+#noOfLikes{
+    padding-left: 1%;
+}
+#likeBtn{
+    margin-bottom: 3%;
+    background-color: transparent;
+    border: none;
+}
+#postHead{
+    color: rgb(97, 81, 60);
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 920px) { 
+    #comment{
+        min-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 876px) { 
+    .blogDetails{
+        border-left: 40px solid #35585a;
+    }
+}
+
+@media only screen and (max-width: 750px) { 
+    .blogDetails{
+        border-left: 30px solid #35585a;
+    }
+}
+@media only screen and (max-width: 720px) { 
+    h1{
+        font-size:2rem ;
+    }
+    h5{
+        font-size: 1.1rem;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+    h6{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    
+}
+
+
+@media only screen and (max-width: 654px) { 
+    .blogDetails{
+        border-left: 20px solid #35585a;
+    }
+    .blogViewer{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 550px) { 
+    .blogDetails{
+    border: none;
+    }
+    h1{
+        font-size:1.5rem ;
+    }
+}
+@media only screen and (max-width: 500px) { 
+    .subDetails h5,.subDetails h6{
+        margin-left: 0%;
+    }
+}
+@media only screen and (max-width: 470px) { 
+    #comment{
+        min-width: 80%;
+    }
+    h1{
+        font-size:1.2rem ;
+    }
+    h5{
+        font-size: 0.8rem;
+    }
+    h4{
+        font-size: 0.9rem;
+    }
+    h6{
+        font-size: 0.7rem;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+}

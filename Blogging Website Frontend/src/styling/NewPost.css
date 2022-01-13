@@ -1,0 +1,116 @@
+.newPost{
+}
+#cancel{
+    border: none;
+    padding: 0.5% 1%;
+    float: right;
+    margin-right: 1%;
+    background-color: transparent;
+}
+input,select,textarea{
+    padding:0.5%;
+}
+textarea{
+    resize: none;
+    height: 80vh;
+}
+#newPostTitle{
+    min-width: 70%;
+}
+#newPostCategory{
+    margin-left: 2%;
+    min-width: 20%;
+}
+#cancel:hover{
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+}
+.newPostForm{
+    padding: 2%;
+    margin: 2%;
+}
+.newPostForm{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+.newPostForm input,select,textarea{
+    margin: 0.5%;   
+}
+.newPostForm textarea{
+    min-height: 50vh;
+}
+.newPostForm button{
+    display: inline-block;
+    min-width: 30%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    padding: 1% 2%;
+}
+.button-group{
+    padding: 1%;
+    margin-left: 75%;
+}
+#publishBlog,#discardBlog{
+    /* float:right; */
+    border-radius: 5%;
+    padding: 5%;
+    background-color: transparent;
+}
+#publishBlog{
+    margin-left: 10%;
+}
+#publishBlog:hover{
+    background-color: rgb(85, 204, 62);
+}
+#discardBlog:hover{
+    background-color: rgb(211, 65, 65);
+}
+
+@media only screen and (max-width: 1200px) { 
+    #newPostCategory{
+        margin-left: 1%;
+    }
+    #publishBlog,#discardBlog{
+        padding: 3%;
+    }
+}
+@media only screen and (max-width: 1068px) { 
+    .button-group{
+        margin-left: 70%;
+    }
+}
+@media only screen and (max-width: 880px) { 
+    .button-group{
+        margin-left: 60%;
+    }
+}
+@media only screen and (max-width: 768px) { 
+   select,textarea{
+       margin-top: 2%;
+   }
+}
+@media only screen and (max-width: 650px) { 
+    .button-group{
+        margin-left: 50%;
+    }
+    textarea{
+        height: 60vh; 
+    }
+}
+@media only screen and (max-width: 528px) { 
+    .button-group{
+        margin-left: 40%;
+    }
+}
+@media only screen and (max-width: 440px) { 
+    .button-group{
+        margin-left: 30%;
+    }
+}
+@media only screen and (max-width: 385px) { 
+    .button-group{
+        margin-left: 10%;
+    }
+}

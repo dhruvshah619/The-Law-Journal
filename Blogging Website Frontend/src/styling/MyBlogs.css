@@ -1,0 +1,41 @@
+.myBlogs{
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+
+
+@media only screen and (max-width: 1085px) { 
+   
+}
+
+@media only screen and (max-width: 920px) { 
+    
+}
+
+@media only screen and (max-width: 880px) { 
+}
+
+
+@media only screen and (max-width: 768px) { 
+    .myBlogs{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) { 
+    .myBlogs{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media only screen and (max-width: 500px) { 
+    .myBlogs{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

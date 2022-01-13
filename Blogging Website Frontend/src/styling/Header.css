@@ -1,0 +1,131 @@
+#likedBlogs,#usernameDisplay,#myBlogs,#home,#title{
+    display: inline-block;
+    margin: 1%;
+    padding: 0.5%;
+    border: none;
+    font-size: 1.7rem;
+    color: gainsboro;
+}
+
+#home{
+    font-size: 2rem;
+    font-family: fantasy;
+}
+.user-info{
+    margin-left: 3%;
+}
+#myBlogs{
+    margin-left: 20%;
+}
+
+#likedBlogs,#myBlogs,#home{
+    /* width: 15%;  */
+    padding: 1%;
+    background-color: transparent;
+}
+#dropDown{
+    padding: 1%;
+    border: none;
+    background-color: transparent;
+    color: gainsboro;
+    margin-left: 10%;
+}
+#dropDown:hover{
+    color: #35585a;
+    background-color: gainsboro;
+}
+#likedBlogs:hover{
+    border-bottom: 10px solid #35585a;
+    border-radius: 70%;
+    color: white;
+}
+#myBlogs:hover{
+    border-bottom: 10px solid #37585a;
+    border-radius: 30%;
+    color: white;
+}#home:hover{
+    border-bottom: 5px solid #35585a;
+    border-radius: 10%;
+    color: white;
+}
+#usernameDisplay{
+    font-size: 1rem;
+    float: right;  
+}
+.header{
+    border-bottom: 1px solid gainsboro;
+    /* background-color: rgb(90, 144, 146); */
+    background-color:rgb(136, 113, 81);
+    
+}
+.join{
+    display: flex;
+    float: right;
+}
+
+
+/* ------------------------------------------------CHANGES------------------------------------------------ */
+
+@media only screen and (max-width: 1320px) { 
+    #dropDown{
+        margin-left: 5%;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) { 
+    #myBlogs{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 1050px) { 
+    #myBlogs{
+        margin-left: 2%;
+    }
+    #dropDown{
+        margin-left: 2%;
+    }
+    #likedBlogs,#usernameDisplay,#myBlogs,#home,#title{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 920px) { 
+    #likedBlogs,#usernameDisplay,#myBlogs,#home,#title{
+        font-size: 1.2rem;
+        margin:0.5%;
+    }
+    #myBlogs{
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 880px) { 
+    
+}
+
+@media only screen and (max-width: 655px) { 
+    #likedBlogs,#myBlogs,#home{
+        display: block;
+        margin-left: 30%;
+        font-size: 1.5rem;
+    }
+    #dropDown{
+        display: block;
+        margin-left: 29%;
+        font-size: 1.2rem;
+    } 
+}
+@media only screen and (max-width: 450px) { 
+    #likedBlogs,#myBlogs,#home{
+        display: block;
+        margin-left: 10%;
+        font-size: 1.3rem;
+    }
+    #dropDown{
+        display: block;
+        margin-left: 9%;
+        font-size: 1.1rem;
+    } 
+}

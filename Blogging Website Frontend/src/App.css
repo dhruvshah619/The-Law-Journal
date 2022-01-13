@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    font-family: 'Arvo', serif;
+    box-sizing: border-box;
+}
+.App{
+    background-color: rgb(252, 252, 252);
+    background-repeat: no-repeat;
+    background-position: right;
+}
